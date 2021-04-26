@@ -1,0 +1,50 @@
+#tablecontent {
+	height: auto;
+	width: auto;
+}
+#exceptionTable {
+	border-radius: 6px;
+	color: black;
+	text-align: center;
+	margin-bottom: 11px;
+	margin-left: 2px;
+	margin-right: 2%;
+}
+#exceptionTable thead th {
+	background-color: rgb(81, 130, 187);
+	color: #fff;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: 700;
+	border-bottom-width: 0;
+}
+/* Heading and Column Style */
+ #exceptionTable tr, #exceptionTable th {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(81, 130, 187);
+} 
+
+/* Padding and font style */
+#exceptionTable td {
+font-family: Arial;
+font-size: 12px;
+color: #000;
+font-weight:400;
+text-align: center;
+height:25px;
+}
+#exceptionTable th{
+	padding: 5px 10px;
+	font-size: 11px;
+	font-weight: 700;
+	font-family: Arial;
+	color: rgb(177, 106, 104);
+}
+ .process{
+	background-image: url("../images/processing.gif");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
